@@ -13,6 +13,10 @@
 ;; The highlighting of long lines with whitespace mode is a bit too intrusive
 (setq prelude-whitespace nil)
 
+;; Highlight trailing whitespace
+;; (prelude-whitespace does this but it also does cleanup on save and I don't want that)
+(whitespace-mode +1)
+
 (scroll-bar-mode -1)
 
 ;; Swap Command and Option keys (may only be desirable to macs. We'll see)
