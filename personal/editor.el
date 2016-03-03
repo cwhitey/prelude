@@ -15,7 +15,7 @@
 
 ;; Highlight trailing whitespace
 ;; (prelude-whitespace does this but it also does cleanup on save and I don't want that)
-(whitespace-mode +1)
+;(whitespace-mode +1)
 
 (scroll-bar-mode -1)
 
