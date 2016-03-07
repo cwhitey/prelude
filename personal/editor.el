@@ -1,5 +1,4 @@
 (prelude-require-packages '(;; Good themes which (mostly) work with Prelude
-                            zenburn-theme
                             solarized-theme
                             color-theme-sanityinc-tomorrow
                             base16-theme
@@ -19,7 +18,7 @@
 
 (scroll-bar-mode -1)
 
-;; Swap Command and Option keys (may only be desirable to macs. We'll see)
+;; Swap Command and Option keys (may only be desirable when using a mac. We'll see)
 (setq mac-command-modifier 'meta)
 (setq mac-option-modifier 'super)
 (setq ns-command-modifier 'meta)

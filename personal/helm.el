@@ -1,6 +1,7 @@
 ;;; Code:
 (prelude-require-packages '(cljr-helm))
 
+;; Use clj-refactor when in clojure-mode
 (eval-after-load 'clojure-mode
   '(progn
      (add-hook 'clojure-mode-hook (lambda ()
