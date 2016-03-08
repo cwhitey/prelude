@@ -6,7 +6,9 @@
                             ujelly-theme
                             hipster-theme
                             darktooth-theme
-                            ample-theme))
+                            ample-theme
+                            zoom-frm ;;easy zooming of buffers or whole frames
+                            ))
 
 
 ;; The highlighting of long lines with whitespace mode is a bit too intrusive
