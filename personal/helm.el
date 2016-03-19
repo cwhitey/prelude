@@ -6,3 +6,5 @@
   '(progn
      (add-hook 'clojure-mode-hook (lambda ()
                                     (global-set-key (kbd "C-c C-r") 'cljr-helm)))))
+
+;; TODO: check out https://github.com/ShingoFukuyama/helm-swoop
