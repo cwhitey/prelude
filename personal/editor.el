@@ -30,6 +30,3 @@
 
 ;; I just want to use normal arrow keys thank you very much.
 (setq prelude-guru nil)
-
-;; Line numbers in every buffer
-(global-linum-mode 1)
