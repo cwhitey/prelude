@@ -1,1 +1,1 @@
-(setq prelude-theme 'ample-flat)
+(setq prelude-theme 'sanityinc-tomorrow-night)
