@@ -1,1 +1,2 @@
-(setq prelude-theme 'sanityinc-tomorrow-night)
+(if 'noctilux
+    (setq prelude-theme 'noctilux))
